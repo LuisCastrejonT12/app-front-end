@@ -17,3 +17,11 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Url Configuration apis for local server vue.confing.js
+````
+target https://reqres.in
+proxy /reqres
+
+target https://jsonplaceholder.typicode.com/
+proxy /jsonplaceholder
